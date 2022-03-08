@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Autobuses</title>
+	<link rel="stylesheet" href="EstiloBus.css">
+	<link rel="icon" href="imagenes/logo.jpg" type="image/jpg" sizes="192x192" />
+</head>
+<body>
+	
+	<div id="header">
+	<img class="logo" src="imagenes/logo.jpg" alt="logo autobus">
+  <p>Bus Tur&iacute;stico</p>
+  <ul>
+	<li><a href="Linea1.html">Linea 1</a></li>
+	<li><a href="Linea2.html">Linea 2</a></li>
+	</div>
+  	
+  <div class="body">
+  <p>Viaje con nosotros a mil y un lugar y disfrute</p>
+  <p>Su empresa de autobuses de confianza, nuestros m&aacute;s de 20 a&ntilde;os de experiencia nos avalan. Solo tiene que sentarse en nuestros c&oacute;modos asientos, relajarse y disfrutar del viaje mientras nuestros profesionales le llevan por un interesante recorrido.</p>
+  <p>Puede encontrarnos en calle falsa 123</p>
+  <p>Puede contactarnos a trav&eacute;s del tel&eacute;fono 611223344</p>
+  <p>O a trav&eacute;s del siguiente formulario:</p>
+  </div>
+  
+  <div class="formulario">
+  <h1>Formulario de contacto</h1>
+  <h3>Escríbenos y en breve nos pondremos en contacto contigo</h3>
+  <form>
+  <p>
+  <label for="nombre" class="colocar_nombre">Nombre
+  <span class="obligatorio">*</span>
+  </label>
+  <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+  </p>
+  <p>
+  <label for="email" class="colocar_email">Email
+  <span class="obligatorio">*</span>
+  </label>
+  <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+  </p>
+  <p>
+  <label for="telefone" class="colocar_telefono">Teléfono
+  </label>
+  <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+  </p>
+  <p>
+  <label for="asunto" class="colocar_asunto">Asunto
+  <span class="obligatorio">*</span>
+  </label>
+  <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+  </p>
+  <p>
+  <label for="mensaje" class="colocar_mensaje">Mensaje
+  <span class="obligatorio">*</span>
+  </label>                     
+  <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+  </p>  
+  <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+  <p class="aviso">
+  <span class="obligatorio"> * </span>los campos son obligatorios.
+  </p>
+  </form>
+  </div>
+  
+  
+</body>
+</html>
